@@ -11,9 +11,14 @@ Students are expected to:
 Member list
 =====================================
 
-*Add student list of your group here*
+Phạm Minh Đức - USTHBI7-040
+Lại Khang Duy - USTHBI7-051
+Lê Nguyên Khôi - USTHBI7-086
+Nguyễn Đức Khải - USTHBI7-085
+Đoàn Thành Huy - USTHBI7-083
+Vũ Hoàng Minh - USTHBI7-112
 
 Project description
 =====================================
 
-*Add your project description here*
+Simple app to manage classrooms
