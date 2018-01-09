@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainUI">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="80321" binding="SouthPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="3aa5f" class="javax.swing.JButton" binding="addButton">
+            <constraints/>
+            <properties>
+              <preferredSize width="68" height="26"/>
+              <text value="Add"/>
+            </properties>
+          </component>
+          <component id="f5121" class="javax.swing.JButton" binding="modifyButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Modify"/>
+            </properties>
+          </component>
+          <component id="abbd3" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Delete"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="ae147">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6753f" class="javax.swing.JTable" binding="courseTable" custom-create="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
